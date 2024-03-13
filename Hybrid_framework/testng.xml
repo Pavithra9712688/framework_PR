@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Listeners.runner_class1"/>
+      <class name="Groups_testng.Group1"/>
+      <class name="property_files.property_files1"/>
+      <class name="Data_provider_testng.runner1"/>
+      <class name="Utils.Fetch_property"/>
+      <class name="runner_script.runner_script1"/>
+      <class name="runner_script.runner_read_excel"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
